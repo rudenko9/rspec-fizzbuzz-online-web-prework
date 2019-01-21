@@ -1,9 +1,7 @@
 def fizzbuzz(int)
-  if 15 / 3 == 5
+  if 15 / 3 == 0
     return "Fizz"
-elsif 15 / 5 == 3 
+elsif 15 / 5 == 0
    return "Buzz"
- else 15/(3,5) 
-   return "FizzBuzz"
   end
 end
