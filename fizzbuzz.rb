@@ -1,7 +1,11 @@
 def fizzbuzz(int)
-  if 15 / 3 == 0
-    return "Fizz"
-elsif 15 / 5 == 0
-   return "Buzz"
+  if int % 3 == 0 and Int % 5==0
+    puts "FizzBuzz"
+elsif int % 5 == 0
+   puts "Buzz"
+elsif int % 3 == 0 
+puts "Fizz"
+else 
+  puts int
   end
 end
